@@ -9,6 +9,8 @@ import HeroSection from "./components/Hero/HeroSection";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
+import Team from "./components/Team/Team";
+import Events from "./components/Events/Events";
 
 function App() {
   return (
@@ -28,7 +30,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="" element={<Home />}></Route>
-          <Route exact path="about" element={<About />}></Route>
+          <Route exact path="about" element={<Team />}></Route>
+          <Route exact path="events" element={<Events />}></Route>
           <Route exact path="contact" element={<Contact />}></Route>
         </Routes>
         
