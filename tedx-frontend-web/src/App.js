@@ -20,6 +20,8 @@ function App() {
     // </BrowserRouter>
     <div className="bg-black text-white h-screen">
       {/* render what you want to render */}
+
+      <Navbar />
       <HeroSection />
       {/* <PastEvents /> */}
       {/* <About /> */}
