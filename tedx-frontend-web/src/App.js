@@ -6,6 +6,7 @@ import "./App.css";
 import PastEvents from "./components/PastEvents/PastEvents";
 import About from "./components/About/About";
 import HeroSection from "./components/Hero/HeroSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <HeroSection />
       <About />
       <PastEvents />
+      <Footer />
     </div>
   );
 }
