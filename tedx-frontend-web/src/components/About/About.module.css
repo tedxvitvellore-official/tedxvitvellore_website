@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabs{
+    background-color: black;
+    color:white ;
+    padding: 0 8rem;
+}
+.tabsHeader{
+    background-color: black;
+}
+.tab{
+    font-weight: 700;
+    background-color: black;
+    color: red;
+    font-size: 1.25rem;
+}
+.tabsBody{
+    text-align: center;
+    color: white;
+}
+.tabsTitle{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid red;
+    padding-top: 1rem;
+    display: inline-block;
+}
+.tabDesc{
+    color: white;
+    line-height: 2rem;
+}

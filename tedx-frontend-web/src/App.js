@@ -24,7 +24,7 @@ function App() {
       <Navbar />
       <HeroSection />
       {/* <PastEvents /> */}
-      {/* <About /> */}
+      <About />
     </div>
   );
 }
