@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
+import PastEvents from "./components/PastEvents/PastEvents";
+import About from "./components/About/About";
+import HeroSection from "./components/Hero/HeroSection";
 
 function App() {
   return (
@@ -15,10 +18,12 @@ function App() {
     //     </Route>
     //   </Routes>
     // </BrowserRouter>
-    <>
+    <div className="bg-black text-white h-screen">
       {/* render what you want to render */}
-      <Navbar />
-    </>
+      <HeroSection />
+      {/* <PastEvents /> */}
+      {/* <About /> */}
+    </div>
   );
 }
 
