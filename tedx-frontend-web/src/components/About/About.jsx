@@ -32,27 +32,32 @@ TED has established The Audacious Project that takes a collaborative approach to
   ];
 
   return (
-    <Tabs value="html" className="bg-black text-white md:px-52 px-20">
-      <TabsHeader className={styles.tabsHeader}>
-        {data.map(({ label, value }) => (
-          <Tab key={value} value={value} className="text-pm font-bold">
-            {label}
-          </Tab>
-        ))}
-      </TabsHeader>
-      <TabsBody className={styles.tabsBody}>
-        {data.map(({ value, title }) => (
-          <TabPanel key={value} value={value} className={styles.tabsTitle}>
-            {title}
-          </TabPanel>
-        ))}
-        {data.map(({ value, desc }) => (
-          <TabPanel key={value} value={value} className={styles.tabDesc}>
-            {desc}
-          </TabPanel>
-        ))}
-      </TabsBody>
-    </Tabs>
+    <div className="bg-black text-white flex flex-col items-center justify-around w-full md:px-52 px-20">
+      <div className="border-pm border-b-2 font-bold text-4xl mt-2 text-center">
+        About Us
+      </div>
+      <Tabs value="html" className="w-full mt-4">
+        <TabsHeader className={styles.tabsHeader}>
+          {data.map(({ label, value }) => (
+            <Tab key={value} value={value} className="text-pm font-bold">
+              {label}
+            </Tab>
+          ))}
+        </TabsHeader>
+        <TabsBody className={styles.tabsBody}>
+          {data.map(({ value, title }) => (
+            <TabPanel key={value} value={value} className={styles.tabsTitle}>
+              {title}
+            </TabPanel>
+          ))}
+          {data.map(({ value, desc }) => (
+            <TabPanel key={value} value={value} className={styles.tabDesc}>
+              {desc}
+            </TabPanel>
+          ))}
+        </TabsBody>
+      </Tabs>
+    </div>
   );
 }
 

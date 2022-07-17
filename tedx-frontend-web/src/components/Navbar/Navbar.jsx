@@ -1,6 +1,12 @@
 import React from "react";
 import "./navbar.css"
 import tedx from "../../assets/tedx_logo.png"
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+	Link
+} from 'react-router-dom';
 
 function Navbar() {
   // const button = document.querySelector("#menu-button");
@@ -17,46 +23,46 @@ function Navbar() {
     
       <input className="menu-btn hidden" type="checkbox" id="menu-btn" />
       <label
-        className="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none"
+        className="menu-icon block  cursor-pointer md:hidden px-2 py-4 relative select-none"
         for="menu-btn"
       >
-        <span className="navicon bg-grey-darkest flex items-center relative"></span>
+        <span className="navicon bg-white flex items-center relative"></span>
       </label>
 
       <ul className="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
         <li className="border-t md:border-none">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="block md:inline-block px-4 py-3 no-underline text-white hover:text-pm font-bold"
           >
             Home
-          </a>
+          </Link>
         </li>
 
         <li className="border-t md:border-none">
-          <a
-            href="/about/"
+          <Link
+            to="/about"
             className="block md:inline-block px-4 py-3 no-underline text-white hover:text-pm"
           >
             About Us
-          </a>
+          </Link>
         </li>
 
         <li className="border-t md:border-none">
-          <a
-            href="/events/"
+          <Link
+            to="/events"
             className="block md:inline-block px-4 py-3 no-underline text-white hover:text-pm"
           >
             Events
-          </a>
+          </Link>
         </li>
         <li className="border-t md:border-none">
-          <a
-            href="/contact/"
+          <Link
+            to="/contact"
             className="block md:inline-block px-4 py-3 no-underline text-white hover:text-pm"
           >
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

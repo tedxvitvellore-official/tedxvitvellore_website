@@ -4,7 +4,7 @@ import Wave from "react-wavify";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col h-full items-center justify-around bg-black">
+    <div className="flex flex-col h-screen items-center justify-around bg-black">
       <img src={ripple} className="w-1/3" alt="ripple_logo" />
 
       <div className="flex flex-col md:flex-row justify-around w-1/2">
