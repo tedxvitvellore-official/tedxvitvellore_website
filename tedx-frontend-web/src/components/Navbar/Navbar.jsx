@@ -14,7 +14,7 @@ function Navbar() {
       <div className="flex w-1/3 items-center mr-6 py-3 text-grey-darkest">
         <img src={tedx} alt="TEDxVITVellore Logo" className="md:w-1/3" />
       </div>
-
+    
       <input className="menu-btn hidden" type="checkbox" id="menu-btn" />
       <label
         className="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none"

@@ -22,9 +22,11 @@ function App() {
       {/* render what you want to render */}
 
       <Navbar />
+      
+
       <HeroSection />
-      {/* <PastEvents /> */}
       <About />
+      <PastEvents />
     </div>
   );
 }
