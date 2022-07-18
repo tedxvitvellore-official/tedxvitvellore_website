@@ -18,16 +18,17 @@ function HeroSection() {
             rel="noreferrer"
             className="py-4 px-6 text-lg rounded-md font-semibold bg-pm max-w-1/2"
           >
-            Register
+            Register!
           </a>
         </div>
         <div className="text-sm md:text-base p-4 text-center md:text-left">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-          distinctio atque laboriosam laborum, excepturi aliquid iusto ipsam
-          porro ullam nisi qui voluptas tempora quas modi unde architecto, eos
-          at molestiae nesciunt laudantium non dignissimos. Reprehenderit eos
-          non consequuntur totam dolores iure quae tenetur alias mollitia
-          aspernatur. Incidunt assumenda mollitia saepe!f
+        We tend to glance over the little things we do, the small actions that have massive consequences beyond the scope 
+        of our understanding.
+
+        Smaller life choices can be analogized through ripples in water or a flap of a butterfly's wing.
+        
+        The concept that a butterfly's wings flapping can cause a tornado or a small ripple can spread through 
+        streams is at the core of the theme of the event.
         </div>
       </div>
       <Wave
