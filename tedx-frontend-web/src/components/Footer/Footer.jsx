@@ -27,6 +27,9 @@ function Footer() {
               text-blue-700
               md:justify-start
             "
+            href="https://www.tedxvitvellore.com/"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src={tedx} alt="TEDxVITVellore Logo" className="md:w-1/3" />
           </a>
@@ -143,17 +146,10 @@ function Footer() {
             </ul>
           </div>
           <div class="w-full px-4 lg:w-1/3 md:w-1/2">
-            <h2 class="mb-2 font-bold tracking-widest text-pd">
-              Contact Us
-            </h2>
+            <h2 class="mb-2 font-bold tracking-widest text-pd">Contact Us</h2>
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <p
-                  class="text-gray-600 hover:text-pm"
-                  
-                >
-                  +91-9179045326
-                </p>
+                <p class="text-gray-600 hover:text-pm">+91-9179045326</p>
               </li>
               <li>
                 <a
@@ -165,7 +161,6 @@ function Footer() {
                   tedxvitvellore@gmail.com
                 </a>
               </li>
-              
             </ul>
           </div>
         </div>

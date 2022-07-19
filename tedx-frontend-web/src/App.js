@@ -1,11 +1,8 @@
-import logo from "./logo.svg";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
-import PastEvents from "./components/PastEvents/PastEvents";
-import About from "./components/About/About";
-import HeroSection from "./components/Hero/HeroSection";
+
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";

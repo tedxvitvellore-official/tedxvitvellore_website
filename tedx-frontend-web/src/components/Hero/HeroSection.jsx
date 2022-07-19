@@ -13,7 +13,7 @@ function HeroSection() {
         
           <div className="text-pd mb-4">24th July</div>
           <a
-            href="http://localhost:3000/"
+            href="https://bit.ly/3v02X9a"
             target="_blank"
             rel="noreferrer"
             className="py-4 px-6 text-lg rounded-md font-semibold bg-pm max-w-1/2"

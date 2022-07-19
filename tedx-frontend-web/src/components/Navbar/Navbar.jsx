@@ -2,9 +2,6 @@ import React from "react";
 import "./navbar.css"
 import tedx from "../../assets/tedx_logo.png"
 import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
 	Link
 } from 'react-router-dom';
 
