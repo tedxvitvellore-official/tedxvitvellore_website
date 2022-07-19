@@ -18,7 +18,7 @@ function HeroSection() {
             rel="noreferrer"
             className="py-4 px-6 text-lg rounded-md font-semibold bg-pm max-w-1/2"
           >
-            Register!
+            Register
           </a>
         </div>
         <div className="text-sm md:text-base p-4 text-center md:text-left">
