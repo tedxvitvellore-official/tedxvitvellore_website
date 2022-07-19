@@ -1,5 +1,5 @@
 import React from "react";
-import tedx from "../../assets/tedx_logo.png"
+import tedx from "../../assets/tedx_logo.png";
 
 function Footer() {
   return (
@@ -44,38 +44,135 @@ function Footer() {
             </h2>
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-gray-600 hover:text-pm">TED</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.ted.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  TED
+                </a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-pm">TEDx</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.ted.com/about/programs-initiatives/tedx-program"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  TEDx Program
+                </a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-pm">TEDx Program</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Terms of Use
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Privacy Policy
+                </a>
               </li>
             </ul>
           </div>
           <div class="w-full px-4 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 font-bold tracking-widest text-pd">
-              More About Us
+              TEDxVITVellore
             </h2>
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-gray-600 hover:text-pm">About</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.linkedin.com/company/tedx-vitvellore/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-pm">Events</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.instagram.com/tedxvitvellore/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram
+                </a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-pm">Contact Us</a>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://twitter.com/TEDxVITVellore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.linkedin.com/company/tedx-vitvellore/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Medium
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="https://www.facebook.com/Tedxvitvellore/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Facebook
+                </a>
               </li>
             </ul>
           </div>
-          
+          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+            <h2 class="mb-2 font-bold tracking-widest text-pd">
+              Contact Us
+            </h2>
+            <ul class="mb-8 space-y-2 text-sm list-none">
+              <li>
+                <p
+                  class="text-gray-600 hover:text-pm"
+                  
+                >
+                  +91-9179045326
+                </p>
+              </li>
+              <li>
+                <a
+                  class="text-gray-600 hover:text-pm"
+                  href="mailto:tedxvitvellore@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  tedxvitvellore@gmail.com
+                </a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
       </div>
       <div class="flex justify-center">
         <p class="text-sm text-td">
-        This independent TEDx event is operated under license from TED.
+          This independent TEDx event is operated under license from TED.
         </p>
       </div>
     </footer>
