@@ -14,7 +14,7 @@ module.exports = withMT({
       sed: '#FF6F00', //secondary dark
       am: '#EC437D', //accent main
       al: '#F8BBD0', //accent light
-      ad: '#AD1457', //accent dark
+      ad: '#1E0644', //accent dark
       tp: '#212121', //text primary
       ts: '#757575', //text secondary
       td: '#9E9E9E', //text disabled
