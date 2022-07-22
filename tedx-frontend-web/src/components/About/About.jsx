@@ -32,8 +32,8 @@ TED has established The Audacious Project that takes a collaborative approach to
   ];
 
   return (
-    <div className="bg-black text-white flex flex-col items-center justify-around w-full md:px-52 px-20">
-      <div className="border-pm border-b-2 font-bold text-4xl mt-2 text-center">
+    <div className="bg-black text-white flex flex-col items-center justify-around w-full lg:px-48  md:px-16 px-2">
+      <div className="border-pm border-b-2 font-bold text-3xl mt-2 text-center">
         About Us
       </div>
       <Tabs value="html" className="w-full mt-4">

@@ -10,11 +10,11 @@ import reunited from "../../assets/reunited_logo.png";
 function PastEvents() {
   return (
     <div className="bg-black flex flex-col items-center justify-around w-full">
-      <div className="border-pm border-b-2 font-bold text-4xl my-12">
+      <div className="border-pm border-b-2 font-bold text-3xl my-12">
         Past Events
       </div>
       <Carousel
-        className="w-1/3 flex flex-col items-center justify-center"
+        className="w-4/5 md:w-3/5 lg:w-1/3 flex flex-col items-center justify-center"
         autoPlay={true}
         infiniteLoop={true}
         useKeyboardArrows={true}
