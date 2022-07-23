@@ -31,14 +31,14 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={tedx} alt="TEDxVITVellore Logo" className="md:w-1/3" />
+            <img src={tedx} alt="TEDxVITVellore Logo" className="md:w-3/3" />
           </a>
-          <p class="mt-2 text-sm text-gray-500">
+          {/* <p class="mt-2 text-sm text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             at sequi cum, impedit fuga in placeat illo eum minima possimus est
             perferendis distinctio explicabo eos natus consequuntur blanditiis
             odio optio?
-          </p>
+          </p> */}
         </div>
         <div class="justify-between w-full mt-4 text-center lg:flex">
           <div class="w-full px-4 lg:w-1/3 md:w-1/2">
