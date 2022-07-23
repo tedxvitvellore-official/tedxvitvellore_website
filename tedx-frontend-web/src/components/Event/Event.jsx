@@ -6,7 +6,7 @@ function Event({ imgURL, desc, dates, classStyle }) {
       <div className="flex flex-col items-center justify-around w-1/2">
         <img src={imgURL} alt="imgURL" className={classStyle}/>
       </div>
-      <div className="pl-4 flex flex-col">
+      <div className="pl-4 pt-10 flex flex-col">
       <div className=" max-w-lg text-center md:text-left">{desc}</div>
       <div className="flex items-center ">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
