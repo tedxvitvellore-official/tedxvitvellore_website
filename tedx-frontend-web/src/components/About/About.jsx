@@ -36,7 +36,7 @@ TED has established The Audacious Project that takes a collaborative approach to
       <div className="border-pm border-b-2 font-bold text-3xl mt-2 text-center">
         About Us
       </div>
-      <Tabs value="html" className="w-full mt-4">
+      <Tabs value="ted" className="w-full mt-4">
         <TabsHeader className={styles.tabsHeader}>
           {data.map(({ label, value }) => (
             <Tab key={value} value={value} className="text-pm font-bold">

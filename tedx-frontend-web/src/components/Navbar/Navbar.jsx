@@ -53,14 +53,14 @@ function Navbar() {
             Events
           </Link>
         </li>
-        <li className="border-t md:border-none">
+        {/* <li className="border-t md:border-none">
           <Link
             to="/contact"
             className="block md:inline-block px-4 py-3 no-underline text-white hover:text-pm"
           >
             Contact Us
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

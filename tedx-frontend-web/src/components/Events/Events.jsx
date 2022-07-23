@@ -21,7 +21,7 @@ function Events() {
         streams is at the core of the theme of the event."
       />
       <a
-        href="https://bit.ly/3v02X9a"
+        href="https://bit.ly/3aVft37"
         target="_blank"
         rel="noreferrer"
         className="py-4 px-6 text-lg rounded-md font-semibold bg-pm max-w-1/2 my-8"
